@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
-  res.send("hello express");
+  res.send("hello express 000");
 });
 app.post("/papago", (req, res) => {
   const txt = req.body.txt;
